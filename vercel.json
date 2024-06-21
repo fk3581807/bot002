@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "builds": "." [
+  "builds": [
     {
       "src": "bot.py",
       "use": "package.json",
