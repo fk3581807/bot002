@@ -1,11 +1,14 @@
 {
   "version": 2,
-      "src": "/bot.py",
+   [
+    {
+      "src": "bot.py",
       "use": "package.json",
       "config": {
         "browserslist": "defaults"
       }
     }
+  ],
   "routes": [
     {
       "src": "/",
@@ -19,3 +22,4 @@
   "env": {
     "NODE_ENV": "production"
   }
+}
